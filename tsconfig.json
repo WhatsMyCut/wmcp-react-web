@@ -9,7 +9,6 @@
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
@@ -18,8 +17,23 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "throwIfNamespace": false,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*", "/"],
+      "@api/*": ["src/api/*"],
+      "@public/*": ["public/*"],
+      "@images/*": ["public/images/*"],
+      "@pages/*": ["src/pages/*"],
+      "@sections/*": ["src/sections/*"],
+      "@components/*": ["src/common/components/*"]
+    }
   },
+  "exclude": [
+    "node_modules"
+  ],
   "include": [
     "src"
   ]

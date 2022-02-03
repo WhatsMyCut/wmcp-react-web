@@ -1,0 +1,39 @@
+{
+  "header": {
+    "info": {
+      "name": "Mike Taylor",
+      "email": "mike@whatsmycut.com",
+      "tel": "415-407-4608",
+      "address1": "3209 Hollis Street",
+      "address2": "Apt A",
+      "city": "Oakland",
+      "state": "CA",
+      "zipcode": "94608"
+    },
+    "external_links": {
+      "github": {
+        "url": "https://www.github.com/WhatsMyCut",
+        "icon": "github",
+        "target": "_blank"
+      },
+      "linkedin": {
+        "url": "https://linkedin.com/in/mtaylor769",
+        "icon": "linkedin",
+        "target": "_blank"
+      }
+    }
+
+  },
+  "employment": {
+    "jobs": [
+      {
+        "company": "",
+        "company_logo": "apple",
+        "startDate": "",
+        "endDate": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  }
+}

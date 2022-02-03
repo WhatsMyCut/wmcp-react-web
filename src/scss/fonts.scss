@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One|Roboto+Condensed|Raleway|Oswald|Source+Sans+Pro:regular,bold,italic&display=block');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* set paragraph styles for larger screens */
+    .introText, .bodyText {
+      font-size: 1.1em !important;
+      font-family: 'Oswald' !important;
+      font-weight: 400;
+      width: '100%';
+      height: 'auto';
+    }
+
+    .bodyText {
+      padding-bottom: 15px;
+    }
+
+    /* set drop cap styles for larger screens */
+    .introText::first-letter {
+      font-size: 4.85em !important;
+      float: left;
+      margin: -15px 8px -12px 0;
+      color: #666;
+      font-weight: 900;
+      font-family: "Oswald";
+      line-height: 1.2;
+    }

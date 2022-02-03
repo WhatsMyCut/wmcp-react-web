@@ -1,0 +1,291 @@
+@charset "utf-8";
+@import "./fonts.scss";
+@import "./devbadge.scss";
+
+* {
+  box-sizing: border-box; }
+
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway';
+  line-break: auto;
+}
+
+h1 {
+  display: inline-flex;
+  font-size: 36px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wmcp-app-loading {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  justify-content: center;
+  vertical-align: middle;
+}
+.wmcp-app {
+  width: 100%;
+  margin: 0 auto;
+}
+.wmcp-app-content {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.logo {
+  display: inline-block !important;
+  width: 120px !important;
+  height: auto !important;
+  margin-left: 15px;
+}
+.avatarCard {
+  padding:10px;
+  font-family: 'Oswald' !important;
+  font-size:12px;
+  text-align: center;
+  margin-right: 15px;
+}
+.avatar {
+  width: 150px !important;
+  height: auto !important;
+  background-size: cover;
+  padding: 0px;
+  margin: 15px auto;
+  border: 3px solid #efefef;
+  box-shadow: 0px 2px 3px #999;
+}
+
+.MuiExpansionPanelSummary-root {
+  background-color: #efefef !important;
+}
+
+.site-title {
+  font-family: 'Paytone One', sans-serif !important;
+  font-size: 36px !important;
+  color: #000;
+}
+.site-sub {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 22px;
+  font-style: italic;
+  color: #999;
+  position: relative;
+  top: -5px;
+}
+
+.dashboard {
+  padding: 0 40px; }
+
+.status {
+  color: red;
+}
+
+.iconContainer {
+  display: inline-block;
+  flex: 1;
+  text-align: center;
+  align-content: center;
+  padding: 0 5px 5px;
+}
+.iconDiv {
+  margin: 0 auto;
+  text-align: center;
+}
+.iconText p.MuiTypography-body1 {
+  text-align: center;
+  font-family: 'Oswald' !important;
+  max-width: 100px;
+}
+.icon {
+  font-size: 50px;
+  align-self: center;
+}
+.icon.small {
+  font-size: 35px;
+  vertical-align: -11px;
+}
+
+.jobIcon {
+  padding-right: 100px;
+  margin: 0 auto 10px;
+  background-size: contain !important;
+  width: 35px;
+  height: 60px;
+}
+
+.maincontainer {
+  display: flex;
+  flex: 1 1 100%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  width: 100%;
+  font-family: 'Raleway' !important;
+  padding: 10px;
+
+}
+
+.sidebar {
+  flex: '0 1 100px';
+  flex-direction: column;
+}
+
+.pageContent {
+  flex: '1 1 100%';
+  flex-direction: column;
+}
+
+footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size:11px;
+  position: fixed;
+  bottom:0;
+  text-align: center;
+  padding: 5px;
+  justify-content: center;
+  width:100%;
+  height: 2em;
+  background-color: #fff;
+  box-shadow: 2px 0px 5px #666;
+}
+
+.jumbotron {
+  position: 'relative';
+  background-color: #888;
+  color: white;
+  margin-bottom: 20px;
+  background-image: 'url(/public/images/hacker-anonymous-code-binary.jpg)';
+  background-size: 'cover';
+  background-repeat: 'no-repeat';
+  background-position: 'center';
+  height: 400px;
+  width: 100%;
+  max-width: 750px;
+  align-self: flex-end;
+}
+
+.jumbotron p.MuiTypography-root.MuiTypography-body1 {
+  font-family: 'Paytone One';
+  font-size: 18px;
+}
+
+.overlay {
+  position: 'absolute';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: 'rgba(0,0,0,.3)';
+}
+
+.avatarCard .faIcon {
+  font-size: 36px;
+  color: #66c;
+}
+
+.faIcon.padRight {
+  margin-right: 15px;
+}
+
+.expander {
+  flex: 1;
+  width: 'auto';
+}
+
+
+.expander .accordionHeading {
+  font-family: 'Paytone One' !important;
+  font-size: 22px !important;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.expander .accordionSecondaryHeading {
+  font-family: 'Raleway' !important;
+  font-size: 16px !important;
+  padding: 8px 25px;
+}
+
+.expander .accordionHeader {
+  background-color: darkgray;
+}
+
+.expander .Mui-ExpansionPanel-root {
+  border-radius: 15px;
+}
+
+.MuiExpansionPanelSummary-root {
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.12);
+  z-index: 2;
+}
+
+.expander .MuiExpansionPanelDetails-root {
+  min-height: unset;
+  max-height: 400px;
+  overflow: auto;
+  padding: 15px 0 15px 15px;
+}
+
+.expander .gridContainer {
+  padding-bottom: 15px;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.expander .gridList {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+.expander .gridItem {
+  flex: 1 1 auto;
+  display: flex;
+  width: 50%;
+  list-style-type: none;
+  height: 'auto';
+}
+
+.expander .gridItem > div {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.cardBack {
+  width: 100%;
+  //margin-right: 15px;
+  padding: 0 !important;
+}
+.cardBack .MuiExpansionPanelDetails-root {
+  min-height: unset;
+  max-height: unset;
+  flex-direction: column;
+}
+
+.wide {
+  width: 100%;
+  flex: '1 1 auto',
+}
+
+.reactReduxCard {
+  min-height: 500px !important;
+}

@@ -1,0 +1,25 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#e29cf3",
+    "activityBar.activeBorder": "#8e7611",
+    "activityBar.background": "#e29cf3",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#8e7611",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "sash.hoverBorder": "#e29cf3",
+    "statusBar.background": "#d46fed",
+    "statusBar.debuggingBackground": "#88ed6f",
+    "statusBar.debuggingForeground": "#15202b",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#c642e7",
+    "statusBarItem.remoteBackground": "#d46fed",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#d46fed",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#d46fed99",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "jest.jestCommandLine": "node_modules/.bin/jest",
+  "peacock.color": "#d46fed"
+}

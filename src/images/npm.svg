@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg width="256px" height="127px" viewBox="0 0 256 127" preserveAspectRatio="xMidYMid">
+
+  <defs
+     id="defs4" />
+  <sodipodiNamedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscapePageopacity="0.0"
+     inkscapePageshadow="2"
+     inkscapeZoom="1"
+     inkscapeCx="128.62279"
+     inkscapeCy="127.36086"
+     inkscapeDocument-units="px"
+     inkscapeCurrent-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscapeWindow-width="1440"
+     inkscapeWindow-height="827"
+     inkscapeWindow-x="10"
+     inkscapeWindow-y="25"
+     inkscapeWindow-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdfRDF>
+      <ccWork
+         rdfAbout="">
+        <dcFormat>image/svg+xml</dcFormat>
+        <dcType
+           rdfResource="http://purl.org/dc/dcmitype/StillImage" />
+        <dcTitle></dcTitle>
+      </ccWork>
+    </rdfRDF>
+  </metadata>
+  <g
+     inkscapeLabel="Camada 1"
+     inkscapeGroupmode="layer"
+     id="layer1"
+     transform="translate(-109.57142,-485.2193)">
+    <path
+       style="fill:#cb3837;fill-opacity:1"
+       d="m 174.4429,576.2193 0,-13.01931 -64.87148,0 1.9e-4,-77.98069 233.35644,0 -1.9e-4,77.98069 -116.67804,0 0,13.01931 z"
+       id="path4951" />
+    <path
+       style="fill:#ffffff;fill-opacity:1"
+       d="m 213.63597,563.19999 0,-13.1094 25.67822,0 0,-51.76189 -51.71684,0 0,64.87129 z"
+       id="path4949" />
+    <path
+       style="fill:#cb3837;fill-opacity:1"
+       d="m 213.63597,511.34801 12.61385,0 0,25.67822 -12.61385,0 z"
+       id="path4947" />
+    <path
+       style="fill:#ffffff;fill-opacity:1"
+       d="m 148.31419,550.09059 0,-38.74258 13.06435,0 0,38.74258 13.06436,0 0,-51.76189 -51.71226,0 0,51.76189 z"
+       id="path4945" />
+    <path
+       style="fill:#ffffff;fill-opacity:1"
+       d="m 278.05676,550.09059 0,-38.74258 13.06435,0 0,38.74258 13.06436,0 0,-38.74258 13.06435,0 0,38.74258 13.06437,0 0,-51.76189 -77.93404,0 0,51.76189 z"
+       id="path2998" />
+  </g>
+</svg>
